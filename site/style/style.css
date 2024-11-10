@@ -1,0 +1,110 @@
+.header{
+    background-color: #312C8C;
+     margin:0 ;
+     text-align: center;
+}
+.divHed{
+    display: inline-block;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: rgb(35, 35, 61);
+    
+    Font-family: Arial;
+    margin:0
+}
+
+h1 {
+    font-size: 24px; /* Уменьшение размера заголовка */
+    text-align: left;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+.h2zagl{
+    text-align: left;
+    color: aliceblue;
+    margin-left: 60px;
+}
+.charts-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    background-color: #171D5B;
+
+}
+
+.chart {
+    width: 280px;
+    height: 280px;
+}
+
+.titles-container {
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.chart-title {
+    text-align: center;
+}
+.chart:last-child {
+    margin-right: 0; /* Удаление отступа у последней диаграммы */
+}
+.zagl{
+    color: rgb(255, 255, 255);
+}
+.cart{
+    height: 321px;
+}
+
+.inp{
+    padding: 0.7%;
+    border-radius: 10px;
+    background: linear-gradient(to right,#050A26, #0F1D65);
+    background-color: #0F1D65;
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+.btn{
+    padding: 0.7%;
+    border-radius: 10px;
+    background: linear-gradient(to right, #060684, #224dac); /* Градиент от синего (#0000FF) к голубому (#87CEEB) */
+    color: white; /* Цвет текста на кнопке */
+    border: none; /* Убираем границу */
+    cursor: pointer; /* Указываем, что элемент кликабельный */
+    font-size: 16px; /* Размер шрифта */
+    transition: background 0.3s; /* Плавный переход при наведении */
+}
+.textAut{
+    color: rgb(255, 255, 255);
+    
+}
+.text1{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+.text2{
+    color: rgb(206, 206, 206);
+    font-size: 20px;
+}
+.legend {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: #ffffff; /* Цвет текста легенды */
+}
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Отступ между элементами легенды */
+}
+.legend-color {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; /* Кружок */
+    margin-right: 5px; /* Отступ между кружком и текстом */
+}
